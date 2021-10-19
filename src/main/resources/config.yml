@@ -1,0 +1,20 @@
+#--------------------------------#
+#/\ DC_GuildsAlerts by Keymilo /\#
+#--------------------------------#
+
+# DC_GuildsAlert by Keymilo
+# Proszę o pomoc poprzez darowiznę, potrzebuję funduszy na dalszy rozwój.
+# https://tipply.pl/u/kamilo1337
+#
+# ZAINSTALUJ PLUGIN NA SERWERZE SPIGOT
+#
+# Wersja Pluginu: 1.16
+# Java: 8
+
+
+# Wiadomosci oraz odpowiedzi:
+messages:
+  succescommand: "&aGratulacje! Alert zostal wyslany poprawnie!"
+  noarg: "&8» &cPoprawne uzycie: /galert <chat/title/subtitle/actionbar> (wiadomosc)"
+  noguild: "&4Blad: &cNie posiadasz gildii"
+  noleader: "&4Blad: &cNie jestes liderem ani zastepca gildii!"
