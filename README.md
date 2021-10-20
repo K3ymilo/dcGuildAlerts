@@ -1,4 +1,4 @@
-# dcGuildAlerts🛡️
+# dcGuildAlerts
 Plugin na alerty gildyjne pod 1.16, napisany dla [DreamCode](https://discord.gg/G8aFUSyfFh), z full-config.
 
 ## Download: [1.0](https://github.com/K3ymilo/dcGuildAlerts/releases/tag/1.0)
