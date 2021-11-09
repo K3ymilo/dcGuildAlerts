@@ -12,4 +12,4 @@ Plugin na alerty gildyjne pod 1.16, napisany dla [DreamCode](https://discord.gg/
 - /galert - Wysyła alert gildyjny do wszystkich członków, którzy są online.
 
 
-## Plugin nie jest doskonały, lecz może komuś sie przyda. 🤭
+## Plugin mógłby być lepszy, kod do wyjebania. 🤭
