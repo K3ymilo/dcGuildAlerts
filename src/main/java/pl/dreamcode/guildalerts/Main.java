@@ -12,10 +12,7 @@ import pl.dreamcode.guildalerts.commands.GuildAlertCommand;
 
 public class Main extends JavaPlugin {
 	
-    public static Main main;
-	public Object getConfig;
-	private static Main instance;
-	
+    private final static Main instance;	
 	
     public void onEnable() {
         PluginDescriptionFile pluginDescriptionFile = getDescription();
@@ -45,27 +42,12 @@ public class Main extends JavaPlugin {
         getConsoleSender().sendMessage(" > Twoj serwer posiada wazna licencje do pluginu");
         getConsoleSender().sendMessage(" > -> DC_GuildAlerts v1.0-SNAPSHOT");
         getCommand("galert").setExecutor((CommandExecutor)new GuildAlertCommand(this));
-        main = this;
         instance = this;
         getConfig().options().copyDefaults(true);
         saveConfig();
     }
-    
-    public static Main getMain() {
-    	return main;
-    }
-    
-    
+   
     public static Main getInst() {
         return instance;
       }
-      
-      public static void configReload(Player p) {
-        Bukkit.getPluginManager().disablePlugin((Plugin)getInst());
-        Bukkit.getPluginManager().enablePlugin((Plugin)getInst());
-        p.sendMessage("[ DreamCode ] Config has been sucesfully reloaded :)");
-      }
-    
-    public void onDisable() {
-    }
 }
