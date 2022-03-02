@@ -13,7 +13,7 @@ import pl.dreamcode.guildalerts.utils.ColorUtils;
 public class GuildAlertCommand implements CommandExecutor {
 	
 	
-	Main plugin;
+	private final Main plugin;
 	
 	public GuildAlertCommand(Main m) {
 		plugin = m;
@@ -60,10 +60,10 @@ public class GuildAlertCommand implements CommandExecutor {
         	        }
         	        else
         	        if (args[0].equalsIgnoreCase("title")) {
-        	        	po.sendTitle("§4§lALERT", msg.toString(), 10, 40, 20);
+        	        	po.sendTitle("Â§4Â§lALERT", msg.toString(), 10, 40, 20);
         	        }
         	        else {
-        	        	p.sendMessage(ColorUtils.fixColor("&8» &cPoprawne uzycie: /galert <chat/title/actionbar> (wiadomosc)"));
+        	        	p.sendMessage(ColorUtils.fixColor("&8Â» &cPoprawne uzycie: /galert <chat/title/actionbar> (wiadomosc)"));
         	        	return false;
         	        }
         	    }
